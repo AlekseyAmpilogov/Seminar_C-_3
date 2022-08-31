@@ -5,7 +5,7 @@ int [] array = new int [N];
 
 int i = 0;
 int num = 1;
-Console.Write ("Получен массив квадратных чисел от 1 до " + N*N + " : ");
+Console.Write ("Получен массив кубов чисел от 1 до " + N*N + " : ");
 while (i < N)
 {
     array [i] = num * num * num;
