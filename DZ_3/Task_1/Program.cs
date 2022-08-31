@@ -1,6 +1,6 @@
 ﻿Console.Write ("Дано пятизначное число: ");
 // int num = 12321; // проверка!
-int num = new Random().Next(10000, 100000);
+int num = new Random().Next(10000, 100000); // диапазон от 10000 до 99999+1
 Console.WriteLine (num);
 int num1 = (num /10000) % 10; //1 число
 int num2 = (num /1000) % 10; //2 число
